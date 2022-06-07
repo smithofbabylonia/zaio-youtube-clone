@@ -132,6 +132,9 @@ footer span{
 
 .content{
     padding: 2% 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .categorybar{
@@ -176,15 +179,35 @@ h6{
 }
 
 .videocard{
-    width: 22%;
-    position: relative;
+    width: 22%; height: 22%;
 }
 
-.videocard > img{
+.videobox > img{
     width: 100%;
+    height: 100%;
 }
-
 
 .videocard:hover i{
     display: block;
+}
+
+.time{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    right: 1px; bottom: 8px;
+
+}
+
+.videobox{
+    position: relative;
+    width: 100%;
+}
+
+.videotitle{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
