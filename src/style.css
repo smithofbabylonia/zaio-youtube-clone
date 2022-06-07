@@ -132,6 +132,8 @@ footer span{
 
 .content{
     padding: 2% 3%;
+	height: 100%;
+	overflow-y: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -179,7 +181,8 @@ h6{
 }
 
 .videocard{
-    width: 22%; height: 22%;
+    width: 24%; height: 38%;
+	padding-bottom: 10px;
 }
 
 .videobox > img{
