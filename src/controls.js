@@ -1,0 +1,1 @@
+/*a script to control everything I cannot manage with CSS*/
