@@ -8,6 +8,11 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
+	text-decoration: none;
+}
+
+a:visited{
+    color: #000;
 }
 
 h3{
@@ -157,12 +162,13 @@ footer span{
 .infoframe{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 
 }
 
 .infoframe img{
-    width: 15%;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     border-radius: 100px;
 }
 
@@ -213,4 +219,149 @@ h6{
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.watch{
+	background-color: #f9f9f9;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.morevideos{
+    width: 25%;
+    padding: 1%;
+}
+
+.suggestion{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.videocontent{
+    width: 63%;
+    padding: 1%;
+}
+
+.watchvideoarea{
+    width: 100%;
+    height: 70vh;
+    background: rgba(0,0,0,0.9);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.watchvideoarea img{
+    height: 100%;
+}
+
+.toggles{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    border-top: solid 3px #6d6d6d;
+    padding: 10px 5px;
+    color: white;
+    background: #00000012
+}
+
+.wht{
+    color: white;
+}
+
+.oneside{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.oneside > i{
+    padding: 0 10px;
+}
+
+.videoinfo{
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#moretoggles{
+    display: flex;
+    align-items: flex-end;
+}
+
+#moretoggles i{
+    padding-left: 15px;
+}
+
+.autoplay{
+    width: 40px;
+    height: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.75);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hashtags{
+    color: #6cbef2;
+}
+
+.suggestion img{
+    width: 170px;
+    height: 105px;
+    padding: 5px;
+}
+
+.subscribe{
+    color: white;
+    font-weight: 500;
+    background-color: #aa0b0b;
+    padding: 10px;
+    font-size: 0.95em;
+}
+
+.yourcomment{
+    display: flex;
+    align-items: center;
+}
+
+.yourcomment img{
+    height: 40px;
+}
+
+.yourcomment input{
+    background: #f9f9f9;
+    margin: 1px 15px;
+    border-bottom: #ccc solid 1px;
+    width: 95%;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+
+.otherusercomment{
+    display: flex;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.otherusercomment img{
+    height: 50px;
+    padding: 5px;
+}
+
+.otherusercomment > div{
+    width: 90%;
+}
+
+.react{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
 }
